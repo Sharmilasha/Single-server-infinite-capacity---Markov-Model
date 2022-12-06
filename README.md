@@ -19,9 +19,12 @@ This is a queuing model in which the arrival is Marcovian and departure distribu
 
 
 ## Experiment:
+![single a1](https://user-images.githubusercontent.com/94506182/205899250-c6234fbf-6761-4c6a-9224-7c6b6c342d8e.png)
+
 
 
 ## Program
+```
 arr_time=float(input("Enter the mean inter arrival time of objects from Feeder (in secs): "))
 ser_time=float(input("Enter the mean  inter service time of Lathe Machine (in secs) :  "))
 Robot_time=float(input("Enter the Additional time taken for the Robot (in secs) :  "))
@@ -47,7 +50,7 @@ else:
     print("Warning! Objects Over flow will happen in the conveyor")
 print("---------------------------------------------------------------")
 
-
+```
 
 ## Output
 ![single a2](https://user-images.githubusercontent.com/94506182/205898816-c55b4326-ea44-45dc-a143-42fdc86fe216.png)
